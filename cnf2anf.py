@@ -38,14 +38,3 @@ def cnf2anf():
 if __name__ == "__main__":
     cnf2anf()
 
-#
-# for line in open(filename, 'r'):
-#         if line[0] in ['p']:
-#             verticesNumber = int(line.split()[2])
-#             f.write('<nodes count="%d">\n' %(verticesNumber))
-#             #for i in range(1,verticesNumber+1):
-#             #    f.write('<node id="%d.0" label="%d"/>\n' %(i,i))
-#             f.write('</nodes>\n')
-#             f.write('<edges count="250">\n')
-#         if not line[0] in ['c','p']:
-#             edgeIndex = writeEdge(f, line.split(), edgeIndex)
